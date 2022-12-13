@@ -1,0 +1,88 @@
+/*Змінні*/
+:root {
+    --body-text-color: #434455;
+    --titele-color: #2E2F42;
+    --primary-brand-color: #4D5AE5;
+    --white-color: #FFFFFF;
+    --background-block-color: #E5E5E5;
+    --accent-color: #E7E9FC;
+    --button-color:  #F4F4FD;
+    --button-focus-color: #404BBF;
+
+}
+
+body {
+    color: var(--body-text-color);
+    background-color: var(--white-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: var(--primary-brand-color);
+}
+.logo.first {
+    color: var(--titele-color);
+
+}
+.logo.second {
+    color: var(--button-color);
+}
+
+.site-nav .link {
+    color: var(--titele-color);
+}
+.site-nav .link:hover {
+    color: var(--body-text-color);
+}
+.site-nav .link:focus {
+    color: var(--primary-brand-color);
+}
+
+/*Contacts header*/
+
+
+
+.hero {
+    background-color: var(--titele-color);
+}
+.hero-title {
+    color: var(--white-color);
+}
+/*button*/
+.button {
+    color: var(--body-text-color);
+    background-color: var(--white-color);
+}
+
+.button.primary {
+    color: var(--white-color);
+    background-color: var(--primary-brand-color);
+}
+.button.primary:hover{
+    color: var(--white-color);
+    background-color: var(--primary-brand-color)
+}
+.button.primary:focus {
+    color: var(--white-color);
+    background-color:var(--button-focus-color)
+}
+
+.button.secondary {
+    color: var(--primary-brand-color);
+    background-color: var(--accent-color);
+}.button.secondary:hover{
+    color: var(--white-color);
+    background-color: var(--primary-brand-color)
+}
+.button.secondary:focus {
+    color: var(--white-color);
+    background-color:var(--button-focus-color)
+}
+
+/*title*/
+
+.title
+
