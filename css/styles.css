@@ -20,9 +20,15 @@ ul {
     list-style: none;
 }
 
+.
+
 .logo {
     color: var(--primary-brand-color);
 }
+.logo.primary {
+    colovar (--primary-brand-color);
+}
+
 .logo.first {
     color: var(--titele-color);
 
@@ -45,12 +51,6 @@ ul {
 
 
 
-.hero {
-    background-color: var(--titele-color);
-}
-.hero-title {
-    color: var(--white-color);
-}
 /*button*/
 .button {
     color: var(--body-text-color);
@@ -82,7 +82,62 @@ ul {
     background-color:var(--button-focus-color)
 }
 
-/*title*/
 
-.title
+.section {
+    background-color: var(--background-block-color);
 
+}
+.section.first {
+    background-color: var(--titele-color);
+}
+
+.section.second {
+    background-color: var(--button-color);
+}
+
+
+
+.hero-title {
+    color: var(--white-color);
+}
+.section-title {
+    color: var(--titele-color);
+    
+}
+
+.title {
+    color: var(--titele-color);
+}
+
+
+/* доопрацювати 
+.list {
+    list-style: none;
+}
+
+cursor:pointer;
+
+
+.header-link:hover {
+    color: tomato;
+}
+.link {
+    щоб прибрати підкреслення
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+фонт вей 400 наслідується з браузера
+фонт вей 700 наслідується заголовкамі
+*/
