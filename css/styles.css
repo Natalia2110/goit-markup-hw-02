@@ -48,7 +48,7 @@ body {
 
 
 
-.navigation-link {
+.studio-link {
     font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -56,16 +56,54 @@ body {
     color: var(--titele-color);
 
 }
-.navigation-link:hover {
+.studio-link:hover {
     color: var(--body-text-color);
 }
-.navigation-link:focus {
+.studio-link:focus {
+    color: var(--primary-brand-color);
+}
+.navigation-list .studio-link.current {
     color: var(--primary-brand-color);
 }
 
-.contacts {
+.portfolio-link {
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--titele-color);
 
 }
+.portfolio-link:hover {
+    color: var(--body-text-color);
+}
+.portfolio-link:focus {
+    color: var(--primary-brand-color);
+}
+.navigation-list .portfolio-link.current {
+    color: var(--primary-brand-color);
+}
+.contacts-link {
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--titele-color);
+}
+
+
+.contacts-link:hover {
+    color: var(--body-text-color);
+}
+.contacts-link:focus {
+    color: var(--primary-brand-color);
+}
+
+
+.contacts {
+    
+}
+
 .contacts-mail {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -73,6 +111,14 @@ body {
     color: var(--body-text-color);
     
 }
+.contacts-mail:hover {
+    color: var(--primary-brand-color);
+}
+.contacts-mail:focus {
+    color: var(--primary-brand-color);
+}
+
+
 .contacts-tel{
     
     line-height: 24px;
@@ -80,6 +126,12 @@ body {
     text-decoration: none;
     color: var(--body-text-color);
 
+}
+.contacts-tel:hover {
+    color: var(--primary-brand-color);
+}
+.contacts-tel:focus {
+    color: var(--primary-brand-color);
 }
 
 /* -----------hero------------ */
@@ -189,7 +241,7 @@ body {
     background-color: var(--bacground-footer-color);
 }
 .footer-logo {
-    color: #F4F4FD;
+    color: var(--bacground-button-color);
 }
 .footer-text {
     
@@ -227,6 +279,11 @@ body {
     text-decoration: none;
 
 }
+.gallery-list {
+    background-color: var(--white-title-color);
+
+}
+
 .portfolio-title {
     font-weight: 600;
     font-size: 20px;
