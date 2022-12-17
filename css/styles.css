@@ -18,6 +18,9 @@ body {
     color: var(--body-text-color);
     background-color: var(--background-block-color);
 }
+.list {
+    list-style: none;
+}
 
 .header {
     background-color: var(--white-title-color);
@@ -199,6 +202,52 @@ body {
     letter-spacing: 0.02em;
     color: var(--accent-color)
 }
+
+
+/* ----------------PORTFOLIO-------------- */
+
+.portfolio {
+
+}
+.portfolio-button {
+    font-weight: 600;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--primary-brand-color);
+    background-color: var(--bacground-button-color);
+
+}
+.portfolio-button:hover {
+    color: var(--white-title-color);
+    background-color: var(--primary-brand-color);
+
+}
+.portfolio-button:focus {
+    color: var(--white-title-color);
+    background-color: var(--button-focus-color);
+}
+.link {
+    text-decoration: none;
+
+}
+.portfolio-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--titele-color);
+    
+}
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+}
+
 
 
 
