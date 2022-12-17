@@ -45,12 +45,9 @@ body {
     
 
 }
-.navigation{
 
-}
-.navigation-list {
 
-}
+
 .navigation-link {
     font-weight: 600;
     line-height: 1.5;
@@ -146,9 +143,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.section {
 
-}
 .section-title {
     font-weight: 600;
     font-size: 36px;
@@ -206,9 +201,7 @@ body {
 
 /* ----------------PORTFOLIO-------------- */
 
-.portfolio {
 
-}
 .portfolio-button {
     font-weight: 600;
     line-height: 1.5;
@@ -248,131 +241,3 @@ body {
     color: var(--body-text-color);
 }
 
-
-
-
-/*
-ul {
-    list-style: none;
-}
-
-
-.logo {
-    color: var(--primary-brand-color);
-}
-
-
-.logo.first {
-    color: var(--titele-color);
-
-}
-.logo.second {
-    color: var(--button-color);
-}
-
-.site-nav .link {
-    color: var(--titele-color);
-}
-.site-nav .link:hover {
-    color: var(--body-text-color);
-}
-.site-nav .link:focus {
-    color: var(--primary-brand-color);
-}
-*/
-/*Contacts header*/
-
-
-
-/*button
-.button {
-    color: var(--body-text-color);
-    background-color: var(--white-color);
-}
-
-.button.primary {
-    color: var(--white-color);
-    background-color: var(--primary-brand-color);
-}
-.button.primary:hover{
-    color: var(--white-color);
-    background-color: var(--primary-brand-color)
-}
-.button.primary:focus {
-    color: var(--white-color);
-    background-color:var(--button-focus-color)
-}
-
-.button.secondary {
-    color: var(--primary-brand-color);
-    background-color: var(--bacground-button-color);
-}.button.secondary:hover{
-    color: var(--white-color);
-    background-color: var(--primary-brand-color)
-}
-.button.secondary:focus {
-    color: var(--white-color);
-    background-color:var(--button-focus-color)
-}
-*/
-
-/*
-.section {
-    background-color: var(--background-block-color);
-
-}
-.section.first {
-    background-color: var(--titele-color);
-}
-
-.section.second {
-    background-color: var(--button-color);
-}
-
-
-
-.hero-title {
-    color: var(--white-color);
-}
-.section-title {
-    color: var(--titele-color);
-    
-}
-
-.title {
-    color: var(--titele-color);
-}
-*/
-
-
-/* доопрацювати 
-.list {
-    list-style: none;
-}
-
-cursor:pointer;
-
-
-.header-link:hover {
-    color: tomato;
-}
-.link {
-    щоб прибрати підкреслення
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-фонт вей 400 наслідується з браузера
-фонт вей 700 наслідується заголовкамі
-*/
