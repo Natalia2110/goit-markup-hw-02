@@ -27,7 +27,7 @@ body {
 
 }
 
-.logo {
+.header-logo {
     font-family: 'Raleway' sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -157,6 +157,8 @@ body {
 
 }
 .hero-button {
+    font-family: inherit;
+    font-size: inherit;
     font-weight: 600;
     line-height: 1.19;
     display: flex;
@@ -265,6 +267,8 @@ body {
 
 
 .portfolio-button {
+    font-family: inherit;
+    font-size: inherit;
     font-weight: 600;
     line-height: 1.5;
     display: flex;
