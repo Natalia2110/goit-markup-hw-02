@@ -8,7 +8,7 @@
     --background-block-color: #E5E5E5;
     --accent-color: #E7E9FC;
     --bacground-button-color:  #F4F4FD;
-    --button-focus-color: #404BBF;
+    --button-active-color: #404BBF;
     
 }
 
@@ -56,10 +56,11 @@ body {
     color: var(--titele-color);
 
 }
-.studio-link:hover {
+.studio-link:hover,
+.studio-link:focus {
     color: var(--body-text-color);
 }
-.studio-link:focus {
+.studio-link:active {
     color: var(--primary-brand-color);
 }
 .navigation-list .studio-link.current {
@@ -74,10 +75,11 @@ body {
     color: var(--titele-color);
 
 }
-.portfolio-link:hover {
+.portfolio-link:hover,
+.portfolio-link:focus {
     color: var(--body-text-color);
 }
-.portfolio-link:focus {
+.portfolio-link:active {
     color: var(--primary-brand-color);
 }
 .navigation-list .portfolio-link.current {
@@ -92,10 +94,11 @@ body {
 }
 
 
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--body-text-color);
 }
-.contacts-link:focus {
+.contacts-link:active {
     color: var(--primary-brand-color);
 }
 
@@ -111,10 +114,11 @@ body {
     color: var(--body-text-color);
     
 }
-.contacts-mail:hover {
+.contacts-mail:hover,
+.contacts-mail:focus {
     color: var(--primary-brand-color);
 }
-.contacts-mail:focus {
+.contacts-mail:active {
     color: var(--primary-brand-color);
 }
 
@@ -127,10 +131,12 @@ body {
     color: var(--body-text-color);
 
 }
-.contacts-tel:hover {
+.contacts-tel:hover,
+.contacts-tel:focus {
     color: var(--primary-brand-color);
 }
-.contacts-tel:focus {
+
+.contacts-tel:active {
     color: var(--primary-brand-color);
 }
 
@@ -159,19 +165,23 @@ body {
     cursor: pointer;
     color: var(--white-title-color);
     background-color: var(--primary-brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color: var(--primary-brand-color);
 
 }
-.hero-button:focus {
-    background-color: var(--button-focus-color);
+.hero-button:active {
+    background-color: var(--button-active-color:);
 }
 
 /* ------------about compan------------- */
 
 .visually-hidden {
-    position: absolute;
+    
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -264,16 +274,20 @@ body {
     cursor: pointer;
     color: var(--primary-brand-color);
     background-color: var(--bacground-button-color);
+    box-sizing: border-box;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
 
 }
-.portfolio-button:hover {
+.portfolio-button:hover,
+.portfolio-button:focus {
     color: var(--white-title-color);
     background-color: var(--primary-brand-color);
 
 }
-.portfolio-button:focus {
+.portfolio-button:active {
     color: var(--white-title-color);
-    background-color: var(--button-focus-color);
+    background-color: var(--button-active-color);
 }
 .link {
     text-decoration: none;
